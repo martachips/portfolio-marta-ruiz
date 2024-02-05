@@ -12,9 +12,11 @@
   border: none;
   margin-top: var(--rtc-margin-xl);
 }
+
 .project-link {
   color: var(--rtc-background-color3);
 }
+
 .project-article {
   margin: var(--rtc-margin-l) auto;
   width: 100%;
@@ -35,6 +37,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.h2-project {
+  text-align: center;
 }
 
 .project-preview {
