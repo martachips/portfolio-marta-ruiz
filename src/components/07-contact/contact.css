@@ -33,6 +33,7 @@
   position: absolute;
   bottom: 0;
   font-size: 0.9em;
+  margin-top: var(--rtc-margin-s);
 }
 
 @media (max-width: 660px) {
