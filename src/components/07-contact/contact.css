@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 45svh;
+  min-height: 45svh;
   position: relative;
 }
 
@@ -23,7 +23,7 @@
 
 .contact-data {
   text-align: center;
-  width: 30svw;
+  width: 40svw;
   background-color: var(--rtc-text-color-primary);
   border: 1px solid var(--rtc-background-color2);
   border-radius: var(--rtc-border-radius);
