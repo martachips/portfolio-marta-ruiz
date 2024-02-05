@@ -39,6 +39,7 @@
 
 .project-preview {
   object-fit: contain;
+  padding: var(--rtc-padding-s);
   width: 400px;
   height: 400px;
 }
