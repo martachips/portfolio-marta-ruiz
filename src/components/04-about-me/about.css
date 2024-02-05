@@ -1,0 +1,69 @@
+.about-section {
+  width: 90%;
+  min-height: 50svh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--rtc-font-family);
+  color: var(--rtc-background-color3);
+}
+
+.toggle-img {
+  width: 60px;
+  margin: var(--rtc-margin-l);
+  cursor: pointer;
+}
+.toggle-img:hover {
+  transform: scale(1.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.about-me-text-section,
+.about-me-values-section {
+  width: 80%;
+  padding: var(--rtc-padding-xl);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.about-h3,
+.values-h3 {
+  text-align: center;
+}
+
+.about-me-text {
+  font-size: 1.5em;
+}
+
+.about-me-values-section {
+  background-color: var(--rtc-background-color2);
+  color: var(--rtc-background-color3);
+}
+
+.ul-values-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ul-values-list .li-list-values {
+  width: 300px;
+  padding: var(--rtc-padding-m);
+}
+
+.value-p {
+  font-size: 1.2em;
+  padding: var(--rtc-padding-m);
+}
+
+.about-me-text-section.hidden,
+.about-me-values-section.hidden {
+  opacity: 0;
+}
+
+@media (max-width: 916px) {
+  .about-me-text {
+    font-size: 1.2em;
+  }
+}

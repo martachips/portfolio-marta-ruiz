@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;500&display=swap');
+:root {
+  --rtc-font-family: 'Saira Condensed', sans-serif;
+  --rtc-font-weigth-thin: 100;
+  --rtc-font-weigth-light-regular: 300;
+  --rtc-font-weigth-medium: 500;
+
+  /*COLORS: BACKGROUND, TEXT, BUTTONS*/
+  --rtc-background-color: linear-gradient(
+    to right,
+    #eceeef,
+    #d9dfe2,
+    #c5d0d4,
+    #b1c2c6,
+    #9eb4b7
+  );
+  --rtc-background-color2: #dfdfdf;
+  --rtc-background-color3: #474343;
+  --rtc-text-color-primary: #383737;
+  --rtc-text-color-secondary: #fefefe;
+
+  /*SPACING: MARGIN, PADDING, */
+  --rtc-margin-xs: 5px;
+  --rtc-margin-s: 10px;
+  --rtc-margin-m: 15px;
+  --rtc-margin-l: 20px;
+  --rtc-margin-xl: 30px;
+  --rtc-margin-xxl: 40px;
+  --rtc-margin-xxxl: 60px;
+
+  --rtc-padding-xs: 5px;
+  --rtc-padding-s: 10px;
+  --rtc-padding-m: 15px;
+  --rtc-padding-l: 20px;
+  --rtc-padding-xl: 30px;
+
+  --rtc-gap-s: 10px;
+  --rtc-gap-m: 20px;
+
+  --rtc-border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  list-style: none;
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--rtc-background-color2);
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: 2em;
+}

@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-div {
+  width: 90%;
+  font-family: var(--rtc-font-family);
+  margin-left: var(--rtc-margin-xxxl);
+}
+
+.title-h1-name {
+  font-size: 7em;
+  margin: auto;
+  color: var(--rtc-background-color3);
+}
+.title-h1-name > .title-surname {
+  color: var(--rtc-text-color-secondary);
+  font-weight: var(--rtc-font-weigth-light-regular);
+}
+
+.title-job {
+  font-size: 2em;
+  color: var(--rtc-background-color3);
+}
+
+.my-photo {
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  opacity: 80%;
+  box-shadow: -4px 0px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1321px) {
+  .my-photo {
+    z-index: 0;
+    opacity: 80%;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 1320px) {
+  .my-photo {
+    z-index: 0;
+    opacity: 45%;
+    transition: 0.3s ease-in-out;
+  }
+  .title-div {
+    z-index: 1;
+  }
+}
+
+@media (min-width: 645px) {
+  .header {
+    min-height: 100svh;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 645px) {
+  .header {
+    min-height: 60svh;
+    transition: 0.3s ease-in-out;
+  }
+  .title-div {
+    margin-left: var(--rtc-margin-l);
+  }
+  .title-h1-name {
+    font-size: 5em;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 315px) {
+  .title-h1-name {
+    font-size: 3.4em;
+    transition: 0.3s ease-in-out;
+  }
+}

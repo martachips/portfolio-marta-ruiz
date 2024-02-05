@@ -1,0 +1,96 @@
+.edu-exp-skills-section {
+  font-family: var(--rtc-font-family);
+  color: var(--rtc-background-color2);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100svh;
+  width: 100%;
+  margin: auto;
+  background-color: var(--rtc-background-color3);
+}
+
+.studies-section,
+.exp-section,
+.skills-section {
+  width: 70svw;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+}
+
+.title-h3 {
+  border-bottom: 2px solid var(--rtc-background-color2);
+  text-align: center;
+  margin: var(--rtc-margin-m);
+}
+
+.span-title {
+  font-size: 1.1em;
+  /* color: rgba(255, 80, 109, 0.768); */
+}
+
+.study,
+.job-experience,
+.skill-name {
+  font-size: 1.4em;
+}
+
+.div-recent-studies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.div-recent-studies > p:nth-child(even) {
+  margin-bottom: var(--rtc-margin-xl);
+}
+.study {
+  border-bottom: 1px solid var(--rtc-background-color2);
+}
+
+.hidden {
+  display: none;
+}
+
+.each-job-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: var(--rtc-margin-s);
+}
+
+.job-experience {
+  cursor: pointer;
+  align-self: center;
+}
+
+.functions-ul {
+  background-color: var(--rtc-background-color2);
+  color: var(--rtc-background-color3);
+  width: 80%;
+  border-radius: var(--rtc-border-radius);
+}
+
+.every-function-li {
+  padding: 5px;
+}
+.every-function-li::before {
+  content: '· ';
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-skill-div {
+  width: 250px;
+  margin: var(--rtc-margin-l);
+  text-align: center;
+}
+/* .single-skill-div:hover {
+  transform: scale(1.2);
+  border-radius: var(--rtc-border-radius);
+  box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.1);
+} */

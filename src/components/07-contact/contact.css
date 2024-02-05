@@ -1,0 +1,48 @@
+.contact-section {
+  font-family: var(--rtc-font-family);
+  background-color: var(--rtc-background-color3);
+  color: var(--rtc-background-color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45svh;
+  position: relative;
+}
+
+.contact-h3 {
+  margin: var(--rtc-margin-l);
+}
+
+.contact-p,
+.contact-image {
+  margin: var(--rtc-margin-l);
+}
+.contact-image {
+  width: 30px;
+}
+
+.contact-data {
+  text-align: center;
+  width: 30svw;
+  background-color: var(--rtc-text-color-primary);
+  border: 1px solid var(--rtc-background-color2);
+  border-radius: var(--rtc-border-radius);
+}
+
+.signature {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.9em;
+}
+
+@media (max-width: 660px) {
+  .contact-data {
+    width: 60%;
+  }
+}
+
+@media (max-width: 315px) {
+  .signature {
+    font-size: 0.6em;
+  }
+}
