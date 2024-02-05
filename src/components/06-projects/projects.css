@@ -23,6 +23,8 @@
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 20px;
+  box-shadow: inset 0px -1px 22px -12px rgba(0, 0, 0, 0.75);
+  border-radius: var(--rtc-border-radius);
 }
 
 .project-article:nth-child(2n) {

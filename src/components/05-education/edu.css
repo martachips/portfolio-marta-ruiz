@@ -68,6 +68,7 @@
   background-color: var(--rtc-background-color2);
   color: var(--rtc-background-color3);
   width: 80%;
+  box-shadow: inset 0px -1px 25px -12px rgba(0, 0, 0, 0.905);
   border-radius: var(--rtc-border-radius);
 }
 

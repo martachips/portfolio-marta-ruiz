@@ -19,7 +19,7 @@ a {
 .ul-menu {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: var(--rtc-padding-s);
   font-family: var(--rtc-font-family);
   color: var(--rtc-background-color2);
@@ -32,16 +32,4 @@ a {
 }
 .li-menu:hover {
   background-color: var(--rtc-text-color-primary);
-}
-
-@media (max-width: 525px) {
-  .div-ul--principal-menu {
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-@media (max-width: 386px) {
-  .li-menu {
-    padding: 5px;
-  }
 }
