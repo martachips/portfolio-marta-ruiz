@@ -42,6 +42,7 @@
 
 .h2-project {
   text-align: center;
+  margin: var(--rtc-margin-l);
 }
 
 .project-preview {

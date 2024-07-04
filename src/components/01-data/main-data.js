@@ -8,7 +8,7 @@ export const myProfile = {
       {
         curso: 'Bootcamp Rock The Code',
         description:
-          'Accesibilidad, HTML, CSS, Javascript, Node, React, MongoDB, PostgreSQL'
+          'Accesibilidad, HTML, CSS, Javascript, Node, React, MongoDB, Python, Angular, Typescript'
       },
       {
         curso: 'Programa Samsung DesArrolladoras - 140h',
@@ -101,7 +101,7 @@ export const myProfile = {
   ],
   projects: [
     {
-      title: 'Proyecto 1: Estructura y estilo',
+      title: 'Proyecto: Estructura y estilo',
       description:
         'Primer proyecto en Rock The Code, donde se pone en práctica todo lo aprendido de HTML5 así como de CSS3, haciendo uso de "positions", "flex", "custom variables", etc.',
       link: 'https://github.com/martachips/Proyecto-1.git',
@@ -109,7 +109,7 @@ export const myProfile = {
       preview: '/images/project1.png'
     },
     {
-      title: 'Proyecto 2: Filtrado para comercios',
+      title: 'Proyecto: Filtrado para comercios',
       description:
         'Con este proyecto se abre un conjunto de proyectos destinados a practicar Javascript, repasando HTML y CSS. Para el mismo, se crea una serie de productos para, posteriormente, poder filtrar por vendedor y por precio. Todo ello creado mediante JS.',
       link: 'https://github.com/martachips/Tienda.git',
@@ -117,12 +117,21 @@ export const myProfile = {
       preview: '/images/project2.png'
     },
     {
-      title: "Proyecto 3: 'Inspiration'",
+      title: "Proyecto: 'Inspiration'",
       description:
         'Con este proyecto, de parecido razonable a Pinterest, se practica la conexión con APIs a través de Javascript, en este caso la API Unsplash.',
       link: 'https://github.com/martachips/Pinterest-or-similar.git',
       netlify: 'https://inspiration-photos.netlify.app/',
       preview: '/images/project3.png'
+    },
+    {
+      title: "Proyecto: 'EventMe'",
+      description:
+        'Plataforma de eventos, con creación desde cero del Back, con Node.js y MongoDB, con uso autenticación mediante JWT, subida de imágenes a Cloudinary, distinción de roles de Admin y User y varias funcionalidades que podrás ver al acceder.',
+      link: 'https://github.com/martachips/Front-10.git',
+      link2: 'https://github.com/martachips/Backend-10.git',
+      netlify: 'https://front-10.vercel.app/',
+      preview: '/images/project10.png'
     }
   ],
   aboutMe: {

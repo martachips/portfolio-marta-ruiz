@@ -15,35 +15,54 @@ export function createProjectsSection() {
 
   for (const project of myProfile.projects) {
     const singleProjectArticle = document.createElement('article');
-    const divTitleDescriptionLink = document.createElement('div');
-    const projectTitle = document.createElement('h2');
-    const linkToNetlify = document.createElement('a');
-    const previewImg = document.createElement('img');
-    const divImagePreview = document.createElement('div');
-    const projectDescription = document.createElement('p');
-    const projectLink = document.createElement('a');
-    const projectLinkParagraph = document.createElement('p');
-    projectTitle.textContent = project.title;
-    linkToNetlify.href = project.netlify;
-    previewImg.src = project.preview;
-    projectDescription.textContent = project.description;
-    projectLink.href = project.link;
-    projectLinkParagraph.textContent = '(Enlace a Github)';
-
     singleProjectArticle.classList.add('project-article');
+
+    const divTitleDescriptionLink = document.createElement('div');
     divTitleDescriptionLink.classList.add('div-h2-descrip-link-project');
+
+    const projectTitle = document.createElement('h2');
+    projectTitle.classList.add('h2-project');
+    projectTitle.textContent = project.title;
+
+    const linkToNetlify = document.createElement('a');
+    linkToNetlify.href = project.netlify;
+
+    const previewImg = document.createElement('img');
+    previewImg.classList.add('project-preview');
+    previewImg.src = project.preview;
+
+    const divImagePreview = document.createElement('div');
     divImagePreview.classList.add('div-img-project');
 
-    projectTitle.classList.add('h2-project');
-    previewImg.classList.add('project-preview');
+    const projectDescription = document.createElement('p');
     projectDescription.classList.add('project-description');
+    projectDescription.textContent = project.description;
+
+    const projectLink = document.createElement('a');
     projectLink.classList.add('project-link');
+    projectLink.href = project.link;
+
+    const projectLinkParagraph = document.createElement('p');
+    projectLinkParagraph.textContent = '(Enlace a Github)';
 
     divTitleDescriptionLink.append(
       projectTitle,
       projectDescription,
       projectLink
     );
+
+    if (project.link2) {
+      const projectLink2 = document.createElement('a');
+      projectLink2.classList.add('project-link');
+      projectLink2.href = project.link2;
+
+      const projectLink2Paragraph = document.createElement('p');
+      projectLink2Paragraph.textContent = '(Enlace al Back)';
+
+      projectLink2.append(projectLink2Paragraph);
+      divTitleDescriptionLink.appendChild(projectLink2);
+    }
+
     linkToNetlify.append(previewImg);
     divImagePreview.append(linkToNetlify);
     projectLink.append(projectLinkParagraph);
