@@ -73,7 +73,7 @@ export const myProfile = {
     {
       skill: 'Resolución de incidencias',
       description:
-        'Con plena atención al problema para que no vuelva a suceder en la medida de lo posible.'
+        'Con plena atención al origen del problema para que no vuelva a suceder en la medida de lo posible.'
     },
     {
       skill: 'Organización y planificación',
@@ -127,7 +127,7 @@ export const myProfile = {
     {
       title: "Proyecto: 'EventMe'",
       description:
-        'Plataforma de eventos, con creación desde cero del Back, con Node.js y MongoDB, con uso autenticación mediante JWT, subida de imágenes a Cloudinary, distinción de roles de Admin y User y varias funcionalidades que podrás ver al acceder.',
+        'Plataforma de eventos, con creación desde cero del Backend, con Node.js y MongoDB, con uso autenticación mediante JWT, subida de imágenes a Cloudinary, distinción de roles de Admin y User y varias funcionalidades que podrás ver al acceder desde la imagen. La parte de Frontend ha sido creada desde Vite con HTML, CSS y Javascript, manejando asincronía para las peticiones al back.',
       link: 'https://github.com/martachips/Front-10.git',
       link2: 'https://github.com/martachips/Backend-10.git',
       netlify: 'https://front-10.vercel.app/',
@@ -143,17 +143,17 @@ export const myProfile = {
       {
         value: 'Implicación',
         description:
-          'Porque si no no dedicaría tiempo a ser mejor en lo que hago, aprendiendo cosas nuevas y tratando de que mi trabajo esté más que bien hecho.'
+          'Dedico tiempo a aprender a ser mejor en lo que hago, con la responsabilidad interna de estar a la altura de las circunstancias.'
       },
       {
         value: 'Adaptabilidad',
         description:
-          'Me siento cómoda readaptando el trabajo. Sirve de poco sostener una mentalidad rígida que choca cada vez con el constante cambio de las circunstancias.'
+          'Me siento cómoda readaptando el trabajo. Sirve de poco sostener una mentalidad rígida que se resiste al constante cambio.'
       },
       {
         value: 'Empatía',
         description:
-          'He hecho llorar a más de un@. ¡Pero no en mal sentido! Transmito confianza y las personas encuentran en mí alguien con quien poder contar, en lo bueno y en lo malo.'
+          'Consigo transmitir confianza y las personas encuentran en mí alguien con quien poder contar.'
       },
       {
         value: 'Compañerismo',

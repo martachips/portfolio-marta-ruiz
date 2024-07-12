@@ -26,6 +26,7 @@ export function createProjectsSection() {
 
     const linkToNetlify = document.createElement('a');
     linkToNetlify.href = project.netlify;
+    linkToNetlify.target = '_blank';
 
     const previewImg = document.createElement('img');
     previewImg.classList.add('project-preview');
